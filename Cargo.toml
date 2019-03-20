@@ -1,0 +1,10 @@
+[package]
+name = "piston-tutorial"
+version = "0.1.0"
+authors = ["WiseEyeKOSO <36448457+WiseEyeKOSO@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+rand = "*"
+piston_window = "*"
+find_folder = "*"
