@@ -39,7 +39,7 @@ fn main() {
         window.draw_2d(&event, |c, g| {
             let transform = c.transform.trans(10.0, 50.0);
 
-            clear(BACK_COLOR, g);
+             clear(BACK_COLOR, g);
             game.draw_board(&c, g);
             text::Text::new(25).draw(&format!("{}",game.get_count()), &mut glyphs, &c.draw_state,transform, g)
         });
